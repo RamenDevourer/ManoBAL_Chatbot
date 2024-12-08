@@ -21,7 +21,8 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5555/api/chat', {
+      // change link for localhost or deployment
+      const response = await axios.post('https://manobal-backend/api/chat', {
         userMessage,
         chatHistory: updatedChatHistory,
       });

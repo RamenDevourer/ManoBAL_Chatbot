@@ -8,7 +8,16 @@ const port = PORT;
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+
+// Uncomment and change frontend url for deployment
+const corsOptions = {
+    origin: 'https://manobal.vercel.app',
+};
+
+app.use(cors(corsOptions));
+
+// Uncomment for localhost
+// app.use(cors());
 
 // Use chat routes
 app.use('/api/chat', chatRoutes);
