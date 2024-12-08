@@ -1,0 +1,150 @@
+/* Global Reset */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat app container */
+.chat-app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Chat history */
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;  /* Ensure chat history is full width */
+  scrollbar-width: thin;
+  scrollbar-color: #555 #1e1e1e;
+  box-sizing: border-box;
+}
+
+.chat-history::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-history::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+/* Chat bubble */
+.chat-bubble {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  word-wrap: break-word;
+  position: relative;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+.chat-bubble.user {
+  align-self: flex-end;
+  background-color: #007bff;
+  color: white;
+  flex-direction: row-reverse;
+}
+
+.chat-bubble.bot {
+  align-self: flex-start;
+  background-color: #333;
+  color: white;
+}
+
+/* Chat icons */
+.chat-icon {
+  width: 40px;
+  min-width: 40px;
+  max-width: 40px;  
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+  background-color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Timestamp */
+.timestamp {
+  font-size: 10px;
+  color: #bbb;
+  margin-top: 5px;
+  text-align: right;
+}
+
+/* Chat input */
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #222;
+  border-top: 1px solid #333;
+  width: 100%; /* Ensure chat input takes full width */
+  box-sizing: border-box;
+}
+
+.chat-input textarea {
+  flex: 1;
+  resize: none;
+  border: 1px solid #555;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #1e1e1e;
+  color: white;
+  outline: none;
+  min-width: 0; /* Prevent it from overflowing */
+}
+
+.chat-input textarea::placeholder {
+  color: #aaa;
+}
+
+.chat-input button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.chat-input button:hover {
+  background-color: #0056b3;
+}
+
+.chat-input button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
