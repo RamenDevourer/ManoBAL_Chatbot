@@ -4,7 +4,9 @@ import { FaUserAlt, FaRobot } from 'react-icons/fa'; // Import icons for user an
 import './App.css';
 
 function App() {
-  const [chatHistory, setChatHistory] = useState([]);
+  const [chatHistory, setChatHistory] = useState([
+    { role: 'bot', message: 'Hello! 😊 I’m ManoBAL, your mental health companion. What should I call you?', timestamp: new Date().toLocaleTimeString() }
+  ]); // Initialize chat with a greeting message
   const [userMessage, setUserMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const chatEndRef = useRef(null); // Reference to the end of the chat history

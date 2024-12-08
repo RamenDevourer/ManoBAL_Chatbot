@@ -39,7 +39,7 @@ Here is the **Demo Conversation Flow**:
 
 --- **Demo Conversation Flow** ---
 1. **Initial Greeting and User Info Collection**  
-   - Chatbot: Hello! 😊 I’m your mental health companion. What should I call you?  
+   - Chatbot: Hello! 😊 I’m ManoBAL your mental health companion. What should I call you?  
    - User: [User's Name]  
    - Chatbot: Nice to meet you, [User's Name]! How old are you?  
    - User: [User's Age]  
