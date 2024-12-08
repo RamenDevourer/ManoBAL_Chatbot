@@ -22,7 +22,7 @@ function App() {
 
     try {
       // change link for localhost or deployment
-      const response = await axios.post('https://manobal-backend/api/chat', {
+      const response = await axios.post('https://manobal-backend.vercel.app/api/chat', {
         userMessage,
         chatHistory: updatedChatHistory,
       });

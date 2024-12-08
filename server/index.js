@@ -24,7 +24,7 @@ app.use('/api/chat', chatRoutes);
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server live`);
 });
 
 app.get('/', (req, res) => {
