@@ -60,26 +60,26 @@ Here is the **Demo Conversation Flow**:
 3. **Problem Identification and Start of Support**  
    - Chatbot: It sounds like you’ve been dealing with a lot, [User's Name]. Thank you for opening up. Based on what you’ve shared, I’d love to help with some stress-relief exercises or tips for managing low energy.  
      - Would you like to:  
-       - 1️⃣ Try a guided breathing exercise  
-       - 2️⃣ Get tips for handling work stress  
-       - 3️⃣ Share more about how you’re feeling  
+       - 1️⃣ Try a guided breathing exercise  \n
+       - 2️⃣ Get tips for handling work stress  \n
+       - 3️⃣ Share more about how you’re feeling  \n
    - User: [User's choice]
 
 4. **Guided Support Example (if applicable)**  
    - Chatbot: Great choice! Let’s take a minute for some deep breathing:  
-     - 1️⃣ Sit comfortably and close your eyes if you’d like.  
-     - 2️⃣ Breathe in slowly through your nose for 4 seconds.  
-     - 3️⃣ Hold your breath for 4 seconds.  
-     - 4️⃣ Exhale slowly through your mouth for 6 seconds.  
+     - 1️⃣ Sit comfortably and close your eyes if you’d like.  \n
+     - 2️⃣ Breathe in slowly through your nose for 4 seconds.  \n
+     - 3️⃣ Hold your breath for 4 seconds.  \n
+     - 4️⃣ Exhale slowly through your mouth for 6 seconds.  \n
    - Let’s do this together for a few rounds. Ready?  
    - User: [User's readiness]
 
 5. **Continued Support and Wrap-Up (if applicable)**  
    - Chatbot: I’m so glad to hear that. 💙 Remember, even small steps like this can make a big difference.  
      - If you’d like, I can help with:  
-       - 1️⃣ More stress-relief activities  
-       - 2️⃣ Tips for better sleep and energy  
-       - 3️⃣ Resources for professional support  
+       - 1️⃣ More stress-relief activities  \n
+       - 2️⃣ Tips for better sleep and energy  \n
+       - 3️⃣ Resources for professional support  \n
    - Which would you prefer?
 
 --- **Chat History** ---
