@@ -27,8 +27,6 @@ function App() {
       const response = await axios.post('https://manobal-backend.vercel.app/api/chat', {
         userMessage,
         chatHistory: updatedChatHistory,
-      },{
-        withCredentials: true,
       });
 
       setChatHistory((prevChatHistory) => [
