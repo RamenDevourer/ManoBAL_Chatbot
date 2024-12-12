@@ -97,7 +97,8 @@ ${userMessage}
 `
             }]
           }]
-        }
+        },
+        { timeout: 15000 }
       );
   
       // Extract the response from Gemini API
