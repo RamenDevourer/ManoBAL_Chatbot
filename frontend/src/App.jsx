@@ -24,16 +24,16 @@ function App() {
 
     try {
       // uncomment link for deployment
-      // const response = await axios.post('https://manobal-backend.vercel.app/api/chat', {
-      //   userMessage,
-      //   chatHistory: updatedChatHistory,
-      // });
-
-      // uncomment link for localhost
-      const response = await axios.post('http://localhost:5555/api/chat', {
+      const response = await axios.post('https://manobal-backend.vercel.app/api/chat', {
         userMessage,
         chatHistory: updatedChatHistory,
       });
+
+      // uncomment link for localhost
+      // const response = await axios.post('http://localhost:5555/api/chat', {
+      //   userMessage,
+      //   chatHistory: updatedChatHistory,
+      // });
 
       setChatHistory((prevChatHistory) => [
         ...prevChatHistory,
