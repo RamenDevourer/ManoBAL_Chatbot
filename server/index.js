@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Uncomment and change frontend url for deployment
 const corsOptions = {
-    origin: 'https://manobal.vercel.app'
+    origin: ['https://manobal.vercel.app', 'https://manobalhome.vercel.app']
 };
 
 app.use(cors(corsOptions));
